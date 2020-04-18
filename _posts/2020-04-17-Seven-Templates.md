@@ -1,3 +1,8 @@
+---
+layout: post
+title: Seven templates
+image: /img/hello_world.jpeg
+---
 
 
 ## Seven templates
