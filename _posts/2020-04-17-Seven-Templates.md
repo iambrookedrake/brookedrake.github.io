@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Seven templates
-subtitle: Each post also has a subtitle
+subtitle: This post is an example of a post by Brooke
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
