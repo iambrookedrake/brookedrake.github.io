@@ -2,6 +2,7 @@
 layout: post
 title: Work Smarter
 subtitle: Predict how much time an employee will need off
+image:  img/AliceBunnyClockSmall.png
 ---
 ![Alice Bunny Chasing Clock](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/AliceBunnyClockSmall.png)
 
