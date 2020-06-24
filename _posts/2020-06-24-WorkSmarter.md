@@ -2,12 +2,12 @@
 layout: post
 title: Work Smarter
 subtitle: Predict how much time an employee will need off
-subtitle: Will I see them at the staff meeting?
-image: /img/AliceBunnyClock.png
+
+image: /home/Brooke/Pictures/AliceBunnyClock.png
 ---
 
 ## The Data
-
+subtitle: Will I see them at the staff meeting?
 ## The Purpose
 Employees are human beings, and we all know that can get complicated. So it's important for management to allow their staff to request time off for health or personal reasons when needed. In many cases the team is not affected in any way as long as adequate communication occurs. Still, there may be times when a supervisor may need to touch base with a team member, whether for a few minutes or perhaps a full length staff meeting. In some context, the number of hours requested off ultimately decides whether this task can occur. With the goal of estimating whether an employee is likely to be able to check in with their boss, a binary classification of the 'Absenteeism time in hours' column was engineered called 'HalfDayOnly'. When True, this column asserts that the number of hours requested off was 5 or fewer, thus leaving ample time for the employee to drop into the office in whatever form that is.
 
