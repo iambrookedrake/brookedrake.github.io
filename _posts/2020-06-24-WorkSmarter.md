@@ -3,7 +3,7 @@ layout: post
 title: Work Smarter
 subtitle: Predict how much time an employee will need off
 ---
-![Alice Bunny Chasing Clock](https://github.com/iambrookedrake/iambrookedrake.github.io/blob/master/img/AliceBunnyClockSmall.png)
+![Alice Bunny Chasing Clock](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/AliceBunnyClockSmall.png)
 
 ## The Data
 Acquired from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Absenteeism+at+work), this dataset outlines specific request offs made for one of 28 reasons, as well as personal information regarding addition factors that might contribute to employee absenteeism.
