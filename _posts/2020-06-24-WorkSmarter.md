@@ -3,7 +3,7 @@ layout: post
 title: Work Smarter
 subtitle: Predict how much time an employee will need off
 
-image: /home/Brooke/Pictures/AliceBunnyClock.png
+image: img/AliceBunnyClock.png
 ---
 
 ## The Data
