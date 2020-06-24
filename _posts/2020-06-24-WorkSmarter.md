@@ -31,6 +31,6 @@ It's important for the people making decisions to have some assurance they are m
 
 It is up to the supervisor or Human Resource team to understand that this metric is one of Reasonability and requires some level of tact and compassion to be useful. The Question it answers is NOT "Can this employee come in for a staff meeting even though they specifically requested the day off?" but rather "Is it even reasonable for me to ask them to do so?"
 
-
+![Test Results](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/Spr2ShaplyTest.png)
 
 
