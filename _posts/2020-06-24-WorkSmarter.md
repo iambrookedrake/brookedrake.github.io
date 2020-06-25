@@ -15,7 +15,7 @@ With the goal of estimating whether an employee is likely to be able to check in
 ![Target Bar Plot](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/Spr2TargetBar.png){: .center-block :}
 
 ## Data Exploration
-For the baseline expectation, the majority class frequency of the binary column 'HalfDayOnly' being True is 60.9% which is both greater than 50% and less than 70%, so I will be using accuracy as the evaluation metric. Considering this data exists for instances of employees requesting time off, it was logical to assume that entries listing zero "0" Absent Hours could be removed as this was clearly incorrect data.
+For the baseline expectation, the majority class frequency of the binary column 'HalfDayOnly' being True is 60.9% which is both greater than 50% and less than 70%, so accuracy was used as the evaluation metric. Considering this data exists for instances of employees requesting time off, it was logical to assume that entries listing zero "0" Absent Hours could be removed as this was clearly incorrect data.
 
 
 ## Data Engineering
