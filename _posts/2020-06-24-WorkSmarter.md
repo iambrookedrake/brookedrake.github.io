@@ -26,6 +26,11 @@ For the baseline expectation, the majority class frequency of the binary column 
 
 ![CoefficientsGraph](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/Spr2Coeff.png){: .center-block :}
 
+## The Models
+* The baseline using the majority class frequency from the training set produced a validation set accuracy of 68.7% on its own.
+* Gradient Boosting model resulted in a validation accuracy of 80.3%.
+* A Logistic Regression Model pipeline returned a validation accuracy of 83.9% and test accuracy of 79.2%
+
 
 ### How is this model useful?
 The output of [this model](https://colab.research.google.com/drive/1kJoVkDwnhxshTntaIbsA6-FNswf7accV?usp=sharing) is a measure of whether an employee is more or less likely to be able to make an appearance at the office based on the information provided. This could be apapted for use by the employee themselves if they are planning a new or progressive healthcare treatment and aren't sure how much time they'll need off. 
