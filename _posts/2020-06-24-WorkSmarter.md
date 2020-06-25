@@ -12,6 +12,8 @@ Employees are human beings, and we all know that can get complicated. So it's im
 
 With the goal of estimating whether an employee is likely to be able to check in with their boss, a binary classification of the 'Absenteeism time in hours' column was engineered called 'HalfDayOnly'. When True, this column asserts that the number of hours requested off was 5 or fewer, thus leaving ample time for the employee to drop into the office in whatever form that is.
 
+![Target Bar Plot](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/Spr2TargetBar.png){: .center-block :}
+
 ## Data Exploration
 For the baseline expectation, the majority class frequency of the binary column 'HalfDayOnly' being True is 60.9% which is both greater than 50% and less than 70%, so I will be using accuracy as the evaluation metric. Considering this data exists for instances of employees requesting time off, it was logical to assume that entries listing zero "0" Absent Hours could be removed as this was clearly incorrect data.
 
@@ -23,14 +25,16 @@ For the baseline expectation, the majority class frequency of the binary column 
 * Since 'Service time' and 'Age' both increase at the same rate, I decided to combine them with 'Education' to portray the ratio of how much of their life an employee has spent with the company. A new employee will have a lower 'WorkToAge'rating than a more seasoned staff member.
 * Rather than using the number of hours requested off directly, I used that number to clarify an employee's ability to touch base with their boss. If the number of hours requested off was 5 or fewer, they would be expected in the office at some point. This established the target column 'HalfDayOnly' for a binary classification model.
 
-![CoefficientsGraph](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/Spr2Coeff.png)
+![CoefficientsGraph](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/Spr2Coeff.png){: .center-block :}
 
 
 ## How is this model useful?
+The output of this model is a measure of whether an employee is more or less likely to be able to make an appearance at the office. This could be apapted for use by the employee themselves if they are planning a new or progressive healthcare treatment and aren't sure how much time they'll need off. 
+
 It's important for the people making decisions to have some assurance they are making the right choice for their team. This prediction can be used to establish the liklihood an employee in a similar situation could manage a minimum threshold of work, versus being entirely unavailable for the work day. Even with data, it's important to consider that employees are human beings and each one is unique. Simply put, just because one person who has 2 kids and lives 45 minutes away only needed a half day for a dental appointment, doesn't mean every person would be able to get to work that day. 
 
 It is up to the supervisor or Human Resource team to understand that this metric is one of Reasonability and requires some level of tact and compassion to be useful. The Question it answers is NOT "Can this employee come in for a staff meeting even though they specifically requested the day off?" but rather "Is it even reasonable for me to ask them to do so?"
 
-![Test Results](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/Spr2ShaplyTest.png)
+![Test Results](https://raw.githubusercontent.com/iambrookedrake/iambrookedrake.github.io/master/img/Spr2ShaplyTest.png){: .center-block :}
 
 
